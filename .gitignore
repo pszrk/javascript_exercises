@@ -1,0 +1,9 @@
+.vscode
+node_modules/
+.DS_Store
+generator-exercise/
+pigLatin/
+snakeCase/
+*.json
+/README.md
+.eslintignore
