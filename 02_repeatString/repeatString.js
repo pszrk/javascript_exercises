@@ -3,7 +3,7 @@ const repeatString = function(text, numTimes) {
 
     if(repetitions < 0)
         return('ERROR');
-        
+
     let output = '';
     for(let i = 0; i < repetitions; i++){
         output += text;
@@ -11,5 +11,4 @@ const repeatString = function(text, numTimes) {
     return output;
 };
 
-// Do not edit below this line
 module.exports = repeatString;
